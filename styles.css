@@ -1,0 +1,138 @@
+.{
+  margin: 0;
+  padding: 0;
+}
+body{
+  margin: 0;
+  font-family: 'Source Serif Pro', serif;
+}
+nav{
+  background-color: #EFEDEE;
+  position: fixed;
+  z-index: 1;
+  width: 100%;
+
+}
+
+nav ul li {
+    display: inline-block;
+    margin: 0 15px;
+    padding: 0;
+}
+ul{
+  margin: 0;
+  padding: 0;
+}
+nav ul {
+  margin: 0 auto;
+  text-align: center;
+  padding: 30px;
+}
+
+.intro{
+  height:100vh;
+  width: 100%;
+  background: url('https://images.unsplash.com/photo-1542435503-956c469947f6?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80');
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+
+}
+.unique{
+  font-family: 'Jim Nightshade', cursive;
+  font-size: 32;
+}
+.column{
+  column-count: 2;
+  background-color:#EFEDEE;
+  padding: 100px;
+}
+.column p{
+  font-size: 18px;
+}
+
+
+h1{
+  align-items: : center;
+  justify-content: center;
+  text-align: center;
+  padding: 100px;
+}
+.unique{
+  text-align: right;
+}
+h3{
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-size: 40px;
+}
+img {
+  width: 100px;
+  length: 50px;
+  justify-content: right;
+}
+nav {
+    margin-bottom: solid black;
+    /* margin-bottom: auto; */
+    border-bottom: solid;
+    border-bottom-width: 1px;
+}
+#section-3{
+  display: flex;
+  background-image: url('https://cdn.pixabay.com/photo/2017/05/11/11/15/workplace-2303851__340.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  width: 100%
+}
+.box1{
+  color: black;
+  float: right;
+  padding-bottom: 30%;
+  padding-top: 10%
+
+}
+.box2{
+  color: black;
+  float: center;
+  text-align: center;
+  padding-top: 150%;
+}
+.box3{
+  color: black;
+  float: left;
+  padding-top: 60%;
+}
+#section-3 p{
+  background-color: #EFEDEE;
+  line-height: 24px;
+  font-size: 18px;
+}
+.container{
+  width: 100%;
+  column-count: 3;
+  justify-content: center;
+  align-items: center;
+}
+.container h2{
+  border-color: solid black;
+  border-radius: 2px;
+}
+#section-4{
+  background-color: #EFEDEE;
+  margin: 0;
+  padding: 100px;
+}
+footer ul{
+  font-size: 40px;
+}
+footer p{
+  font-size: 20px;
+}
+footer{
+  text-align: center;
+  background-color: #FBDFED;
+  padding: 20px;
+}
